@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# environment (real secrets never committed)
+.env
+.env.local
+.env.*.local
+server/.env
+
+# portable MySQL runtime (dev machine only)
+.tools/
+
+# build output
+client/dist/
+server/storage/
+
+# logs & OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# test artifacts
+coverage/
